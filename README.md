@@ -17,6 +17,8 @@ More recently I started the [OpenLineage](https://openlineage.io) project while 
 
 # Presentations
 Over the years I gave a number of talks. You'll find them in chronological order on the [presentations](presentations.md) page.
+You'll also find a [playlist of talks recordings on Youtube](https://www.youtube.com/playlist?list=PL-i24QdqiobbMEGrtf1hLmu6ADvtnz3mR).
+
 ## Nurturing Open Source communities
 
 ## Lineage standardization accross the data ecosystem: OpenLineage, Marquez
@@ -31,6 +33,7 @@ Over the years I gave a number of talks. You'll find them in chronological order
  - Data Eng Conf April 2018: [FROM FLAT FILES TO DECONSTRUCTED DATABASE, The evolution and future of the Big Data ecosystem.](slides/dataengconfsf2018deconstructeddatabase-180419013916.pdf)
 
 ## Columnar formats: Parquet, Arrow
+ - 10 years of Parquet: <iframe width="560" height="315" src="https://www.youtube.com/embed/qe0SeC0Hr_k?si=a44OrEa079qNprQ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
  - Strata NY 2017: [The columnar roadmap, Apache Parquet and Apache Arrow](slides/stratanyj2017parquetarrowroadmap-170928173153.pptx)
  - Mulesoft March 2017: [The future of column-oriented data processing with Arrow and Parquet](slides/mulesoftmar2017parquetarrow-170405025651.pptx)
  - Spark Summit 2017: [Improving Python and Spark Performance and Interoperability with Apache Arrow](slides/sparksummitsf2017v9-170607220323.pptx)
