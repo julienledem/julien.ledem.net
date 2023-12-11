@@ -21,6 +21,9 @@ You'll also find a [playlist of talks recordings on Youtube](https://www.youtube
 
 ## Nurturing Open Source communities
 
+ - SBTB 2023: Julien Le Dem, Ten years of building open source standards.
+{% include youtube.html id="Xz6HiLa18BA" %}
+
 ## Lineage standardization accross the data ecosystem: OpenLineage, Marquez
  - Data and AI Summit May 2021: [Data lineage and observability with OpenLineage](slides/dataandaisummit-datapipelinesobservabilitywithopenlineage1-210622180843.pdf)
  - Data Driven January 2021: [Data pipelines observability with OpenLineage and Marquez](slides/datadrivenjan2021-datapipelinesobservabilityopenlineagemarquez-210205042221.pdf)
