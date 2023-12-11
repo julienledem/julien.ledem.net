@@ -32,6 +32,7 @@ More recently I started the [OpenLineage](https://openlineage.io) project while 
 ## Software Engineering daily
  - [Understanding data lineage at scale with Julien Le Dem](https://softwareengineeringdaily.com/2021/07/12/data-lineage-understanding-data-lineage-at-scale-with-julien-le-dem/)
  - [Columnar Data: Apache Arrow and Parquet with Julien Le Dem and Jacques Nadeau](https://softwareengineeringdaily.com/2017/01/13/columnar-data-apache-arrow-and-parquet-with-julien-le-dem-and-jacques-nadeau/)
+
 # Presentations
 Over the years I gave a number of talks. You'll find them in chronological order on the [presentations](presentations.md) page.
 You'll also find a [playlist of talks recordings on Youtube](https://www.youtube.com/playlist?list=PL-i24QdqiobbMEGrtf1hLmu6ADvtnz3mR).
@@ -43,8 +44,9 @@ You'll also find a [playlist of talks recordings on Youtube](https://www.youtube
 {% include youtube.html id="incWquQPr4U" %}
 
 ## Lineage standardization accross the data ecosystem: OpenLineage, Marquez
+ - Data and AI summit 2023: Cross-Platform Data Lineage with OpenLineage
+{% include youtube.html id="rO3BPqUtWrI" %}
  - Data and AI Summit May 2021: [Data lineage and observability with OpenLineage](slides/dataandaisummit-datapipelinesobservabilitywithopenlineage1-210622180843.pdf)
-{% include youtube.html id="qQAdpbNhxl8" %}
  - Data Driven January 2021: [Data pipelines observability with OpenLineage and Marquez](slides/datadrivenjan2021-datapipelinesobservabilityopenlineagemarquez-210205042221.pdf)
  - Subsurface 2020: [Data Lineage and observability with Marquez](slides/datalineageandobservabilitywithmarquezsubsurface2020-200807003708.pdf)
  - OpenCore Summit: [Observability for data pipelines with Open Lineage](slides/opencoresummit-observabilityfordatapipelineswithopenlineage-201218231602.pdf)
