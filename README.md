@@ -15,17 +15,36 @@ More recently I started the [OpenLineage](https://openlineage.io) project while 
 - Marquez: co-creator, former project lead at the LFAI&Data
 - Brenus: a java bytecode generation library
 
+# Podcasts
+
+## It Depends
+ - Celebrating 10 years of Apache Parquet with Julien Le Dem and Nong Li; Ep. 34 April 2023
+{% include youtube.html id="qe0SeC0Hr_k" %}
+
+## Data engineering podcast
+ - [Data Serialization Formats with Doug Cutting and Julien Le Dem](https://www.dataengineeringpodcast.com/data-serialization-with-doug-cutting-and-julien-le-dem-episode-8)
+ - [Solving Data Lineage Tracking And Data Discovery At WeWork](https://www.dataengineeringpodcast.com/marquez-data-lineage-episode-111)
+ - [Unlocking The Power of Data Lineage In Your Platform with OpenLineage](https://www.dataengineeringpodcast.com/openlineage-data-lineage-specification-episode-187)
+
+## The Analytics Engineering Roundup
+ - [Ep 10: Why Data Lineage Matters w/ Julien Le Dem of OpenLineage](https://roundup.getdbt.com/p/ep-10-why-data-lineage-matters-w)
+
+## Software Engineering daily
+ - [Understanding data lineage at scale with Julien Le Dem](https://softwareengineeringdaily.com/2021/07/12/data-lineage-understanding-data-lineage-at-scale-with-julien-le-dem/)
+ - [Columnar Data: Apache Arrow and Parquet with Julien Le Dem and Jacques Nadeau](https://softwareengineeringdaily.com/2017/01/13/columnar-data-apache-arrow-and-parquet-with-julien-le-dem-and-jacques-nadeau/)
 # Presentations
 Over the years I gave a number of talks. You'll find them in chronological order on the [presentations](presentations.md) page.
 You'll also find a [playlist of talks recordings on Youtube](https://www.youtube.com/playlist?list=PL-i24QdqiobbMEGrtf1hLmu6ADvtnz3mR).
 
 ## Nurturing Open Source communities
-
  - SBTB 2023: Julien Le Dem, Ten years of building open source standards.
 {% include youtube.html id="Xz6HiLa18BA" %}
+ - Airflow Summit 2023: Nurturing an Open Source Community is Like Tending a Garden
+{% include youtube.html id="incWquQPr4U" %}
 
 ## Lineage standardization accross the data ecosystem: OpenLineage, Marquez
  - Data and AI Summit May 2021: [Data lineage and observability with OpenLineage](slides/dataandaisummit-datapipelinesobservabilitywithopenlineage1-210622180843.pdf)
+{% include youtube.html id="qQAdpbNhxl8" %}
  - Data Driven January 2021: [Data pipelines observability with OpenLineage and Marquez](slides/datadrivenjan2021-datapipelinesobservabilityopenlineagemarquez-210205042221.pdf)
  - Subsurface 2020: [Data Lineage and observability with Marquez](slides/datalineageandobservabilitywithmarquezsubsurface2020-200807003708.pdf)
  - OpenCore Summit: [Observability for data pipelines with Open Lineage](slides/opencoresummit-observabilityfordatapipelineswithopenlineage-201218231602.pdf)
