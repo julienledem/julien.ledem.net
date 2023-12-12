@@ -1,10 +1,12 @@
 ![Julien Le Dem](JulienLeDem.jpg "Julien Le Dem")
 
+[<img src="https://linkedin.com/favicon.ico" height="16"/>](https://www.linkedin.com/in/julienledem/) &nbsp; [<img src="https://github.githubassets.com/favicons/favicon.svg" height="16"/>](https://github.com/julienledem) &nbsp; [<img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" height="16"/> ](https://twitter.com/J_)
+
 # Bio 
 I am a Software engineer and entrepreneur who loves collaborating with others in Open Source projects.
-I started the Parquet project in collaboration with the Impala team at Cloudera back when I was at Twitter. I chaired the project for many years at the Apache foundation and Parquet is now the de-facto standard for data lakes. I later contributed to the creation of the Arrow project as a founding engineer at Dremio.
-Before that I received my initiation contributing to OpenSource in the Apache Pig projects where I evolved from contributor to committer to PMC member and eventually chaired the project in 2013.   
-More recently I started the [OpenLineage](https://openlineage.io) project while being the CTO and co-founder of Datakin which was later acquired by Astronomer. OpenLineage came out of Marquez, the project we co-created at Wework on the data platform team.
+I started the [Parquet](https://parquet.apache.org/) project in collaboration with the Impala team at Cloudera back when I was at Twitter. I chaired the project for many years at the Apache foundation and Parquet is now the de-facto standard for data lakes. I later contributed to the creation of the [Arrow](https://arrow.apache.org/) project as a founding engineer at Dremio.
+Before that I received my initiation contributing to OpenSource in the [Apache Pig](https://pig.apache.org/) project where I evolved from contributor to committer to PMC member and eventually chaired the project in 2013.
+More recently I started the [OpenLineage](https://openlineage.io) project while being the CTO and co-founder of Datakin which was later acquired by Astronomer. OpenLineage came out of [Marquez](https://marquezproject.ai/), the project we co-created at Wework on the data platform team.
 
 # Projects
 - Apache Parquet: co-creator, PMC menber, PMC chair 2015-2021
@@ -20,6 +22,14 @@ More recently I started the [OpenLineage](https://openlineage.io) project while 
 ## It Depends
  - Celebrating 10 years of Apache Parquet with Julien Le Dem and Nong Li; Ep. 34 April 2023
 {% include youtube.html id="qe0SeC0Hr_k" %}
+
+## DC_THURS
+ - Data Lineage w/ Julien Le Dem (Datakin)
+{% include youtube.html id="SRAzJalG0YM" %}
+
+## Data Driven NYC
+ - Data Observability and Pipelines: OpenLineage and Marquez
+{% include youtube.html id="MoW-YGjHLgI" %}
 
 ## Data engineering podcast
  - [Data Serialization Formats with Doug Cutting and Julien Le Dem](https://www.dataengineeringpodcast.com/data-serialization-with-doug-cutting-and-julien-le-dem-episode-8)
@@ -39,13 +49,22 @@ You'll also find a [playlist of talks recordings on Youtube](https://www.youtube
 
 ## Nurturing Open Source communities
  - SBTB 2023: Julien Le Dem, Ten years of building open source standards.
-{% include youtube.html id="Xz6HiLa18BA" %}
+ {% include youtube.html id="Xz6HiLa18BA" %}
+ - Data Council 2023: Ten years of building open source standards: From Parquet to Arrow to OpenLineage
+ {% include youtube.html id="x8BQM-q0mAo" %}
  - Airflow Summit 2023: Nurturing an Open Source Community is Like Tending a Garden
-{% include youtube.html id="incWquQPr4U" %}
+ {% include youtube.html id="incWquQPr4U" %}
+ - Subsurface 2023: Ten years of building open source standards: From Parquet to Arrow to OpenLineage
+ {% include youtube.html id="39_R2m30LRk" %}
+
 
 ## Lineage standardization accross the data ecosystem: OpenLineage, Marquez
  - Data and AI summit 2023: Cross-Platform Data Lineage with OpenLineage
-{% include youtube.html id="rO3BPqUtWrI" %}
+ {% include youtube.html id="rO3BPqUtWrI" %}
+
+ - Berlin Buzzwords 2022: Cross-Platform Data Lineage with OpenLineage
+ {% include youtube.html id="pLBVGIPuwEo" %}
+ 
  - Data and AI Summit May 2021: [Data lineage and observability with OpenLineage](slides/dataandaisummit-datapipelinesobservabilitywithopenlineage1-210622180843.pdf)
  - Data Driven January 2021: [Data pipelines observability with OpenLineage and Marquez](slides/datadrivenjan2021-datapipelinesobservabilityopenlineagemarquez-210205042221.pdf)
  - Subsurface 2020: [Data Lineage and observability with Marquez](slides/datalineageandobservabilitywithmarquezsubsurface2020-200807003708.pdf)
@@ -57,14 +76,16 @@ You'll also find a [playlist of talks recordings on Youtube](https://www.youtube
  - Data Eng Conf April 2018: [FROM FLAT FILES TO DECONSTRUCTED DATABASE, The evolution and future of the Big Data ecosystem.](slides/dataengconfsf2018deconstructeddatabase-180419013916.pdf)
 
 ## Columnar formats: Parquet, Arrow
- - 10 years of Parquet: [Video](https://www.youtube.com/embed/qe0SeC0Hr_k?si=a44OrEa079qNprQ-)
  - Strata NY 2017: [The columnar roadmap, Apache Parquet and Apache Arrow](slides/stratanyj2017parquetarrowroadmap-170928173153.pptx)
  - Mulesoft March 2017: [The future of column-oriented data processing with Arrow and Parquet](slides/mulesoftmar2017parquetarrow-170405025651.pptx)
  - Spark Summit 2017: [Improving Python and Spark Performance and Interoperability with Apache Arrow](slides/sparksummitsf2017v9-170607220323.pptx)
  - Hadoop Summit 2017: [The columnar roadmap, Apache Parquet and Apache Arrow](slides/hadoopsummitsj2017parquetarrowroadmap-170615230306.pptx)
  - Strata NY 2016: [The future of column-oriented data processing with Arrow and Parquet](slides/stratany2016parquetarrow-160930180520.pptx)
+ - Berlin Buzzwords 2016: Efficient Data formats for Analytics with Parquet and Arrow
+ {% include youtube.html id="43O5BCabBcU" %}
  - Strata London 2016: [The future of column oriented data processing with Arrow and Parquet](slides/stratalondonparquetarrow-160602155004.pdf)
  - Data Eng Conf NY November 2016: [The future of column-oriented data processing with Arrow and Parquet](slides/dataengconfnynov2016parquetarrow-161104233001.pptx)
+ {% include youtube.html id="6lCVKMQR8Dw" %}
  - Big Data Apps meetup Jan 2016: [SQL-on-Everything with Apache Drill](slides/sqloneverythingwithdrill-160128183101.pdf)
  - Hadoop Summit 2015: [How to use Parquet as a basis for ETL and analytics](slides/howtouseparquethadoopsummitsanjose2015-150616000241-lva1-app6892.pdf)
  - Strata 2015: [How to use Parquet as a basis for ETL and analytics](slides/howtouseparquetstratasanjose2015-150220193807-conversion-gate01.pdf)
