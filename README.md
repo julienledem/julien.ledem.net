@@ -3,7 +3,7 @@
 [<img src="https://linkedin.com/favicon.ico" height="16"/>](https://www.linkedin.com/in/julienledem/) &nbsp; [<img src="https://github.githubassets.com/favicons/favicon.svg" height="16"/>](https://github.com/julienledem) &nbsp; [<img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" height="16"/> ](https://twitter.com/J_)
 
 # Bio 
-I am a Software engineer and entrepreneur who loves collaborating with others in Open Source projects.
+I am a software architect, open source leader and entrepreneur who loves collaborating with others in Open Source projects.
 I started the [Parquet](https://parquet.apache.org/) project in collaboration with the Impala team at Cloudera back when I was at Twitter. I chaired the project for many years at the Apache foundation and Parquet is now the de-facto standard for data lakes. I later contributed to the creation of the [Arrow](https://arrow.apache.org/) project as a founding engineer at Dremio.
 Before that I received my initiation contributing to OpenSource in the [Apache Pig](https://pig.apache.org/) project where I evolved from contributor to committer to PMC member and eventually chaired the project in 2013.
 More recently I started the [OpenLineage](https://openlineage.io) project while being the CTO and co-founder of Datakin which was later acquired by Astronomer. OpenLineage came out of [Marquez](https://marquezproject.ai/), the project we co-created at Wework on the data platform team.
