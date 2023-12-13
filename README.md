@@ -58,7 +58,7 @@ You'll also find a [playlist of talks recordings on Youtube](https://www.youtube
  {% include youtube.html id="39_R2m30LRk" %}
 
 
-## Lineage standardization accross the data ecosystem: OpenLineage, Marquez
+## Open Data Lineage: OpenLineage, Marquez
  - Data and AI summit 2023: Cross-Platform Data Lineage with OpenLineage
  {% include youtube.html id="rO3BPqUtWrI" %}
 
