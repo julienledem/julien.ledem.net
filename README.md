@@ -72,8 +72,9 @@ You'll also find a [playlist of talks recordings on Youtube](https://www.youtube
 
 ## Data Architecture 
  - IEEE Infrastructure 2020: [Data Platform Architecture Principles](slides/dataplatformarchitectureprinciplesieeeinfrastructure20201-201009010526.pdf)
- - Strata NY 2018: [FROM FLAT FILES TO DECONSTRUCTED DATABASE, The evolution and future of the Big Data ecosystem](slides/stratany2018juliendeconstructed-180913124939.pptx)
- - Data Eng Conf April 2018: [FROM FLAT FILES TO DECONSTRUCTED DATABASE, The evolution and future of the Big Data ecosystem.](slides/dataengconfsf2018deconstructeddatabase-180419013916.pdf)
+ - Strata: From flat file to deconstructed database, The evolution and future of the Big Data Ecosystem [Slides](slides/stratany2018juliendeconstructed-180913124939.pptx) [Strata SF 2019](https://www.oreilly.com/library/view/from-flat-files/0636920339847/video327689.html) [Strata NY 2018](https://www.oreilly.com/library/view/strata-data-conference/9781492025856/video322901.html)
+ - Data Eng Conf April 2018: [From flat file to deconstructed database, The evolution and future of the Big Data ecosystem.](slides/dataengconfsf2018deconstructeddatabase-180419013916.pdf)
+ {% include youtube.html id="-NdQ71zxzi8" %}
 
 ## Columnar formats: Parquet, Arrow
  - Data Works Summit 2018: The columnar roadmap, Apache Parquet and Apache Arrow
