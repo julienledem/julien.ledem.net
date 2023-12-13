@@ -84,6 +84,7 @@ You'll also find a [playlist of talks recordings on Youtube](https://www.youtube
  - Strata NY 2017: [The columnar roadmap, Apache Parquet and Apache Arrow](slides/stratanyj2017parquetarrowroadmap-170928173153.pptx) [Video](https://www.oreilly.com/library/view/strata-data-conference/9781491976326/video316477.html)
  - Mulesoft March 2017: [The future of column-oriented data processing with Arrow and Parquet](slides/mulesoftmar2017parquetarrow-170405025651.pptx)
  - Spark Summit 2017: [Improving Python and Spark Performance and Interoperability with Apache Arrow](slides/sparksummitsf2017v9-170607220323.pptx)
+  {% include youtube.html id="44Bu0o1nsD4" %}
  - Hadoop Summit 2017: [The columnar roadmap, Apache Parquet and Apache Arrow](slides/hadoopsummitsj2017parquetarrowroadmap-170615230306.pptx)
  - Strata NY 2016: [The future of column-oriented data processing with Arrow and Parquet](slides/stratany2016parquetarrow-160930180520.pptx)
  - Berlin Buzzwords 2016: Efficient Data formats for Analytics with Parquet and Arrow
