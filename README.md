@@ -76,7 +76,11 @@ You'll also find a [playlist of talks recordings on Youtube](https://www.youtube
  - Data Eng Conf April 2018: [FROM FLAT FILES TO DECONSTRUCTED DATABASE, The evolution and future of the Big Data ecosystem.](slides/dataengconfsf2018deconstructeddatabase-180419013916.pdf)
 
 ## Columnar formats: Parquet, Arrow
- - Strata NY 2017: [The columnar roadmap, Apache Parquet and Apache Arrow](slides/stratanyj2017parquetarrowroadmap-170928173153.pptx)
+ - Data Works Summit 2018: The columnar roadmap, Apache Parquet and Apache Arrow
+ {% include youtube.html id="dPb2ZXnt2_U" %}
+ - NABD Conference 2017: The future of column-oriented data processing with Arrow and Parquet
+ {% include youtube.html id="PuIVPGbhAFE" %}
+ - Strata NY 2017: [The columnar roadmap, Apache Parquet and Apache Arrow](slides/stratanyj2017parquetarrowroadmap-170928173153.pptx) [Video](https://www.oreilly.com/library/view/strata-data-conference/9781491976326/video316477.html)
  - Mulesoft March 2017: [The future of column-oriented data processing with Arrow and Parquet](slides/mulesoftmar2017parquetarrow-170405025651.pptx)
  - Spark Summit 2017: [Improving Python and Spark Performance and Interoperability with Apache Arrow](slides/sparksummitsf2017v9-170607220323.pptx)
  - Hadoop Summit 2017: [The columnar roadmap, Apache Parquet and Apache Arrow](slides/hadoopsummitsj2017parquetarrowroadmap-170615230306.pptx)
