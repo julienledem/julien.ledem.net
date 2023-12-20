@@ -1,4 +1,5 @@
-#Dremel made simple with Parquet
+# Dremel made simple with Parquet
+
 *Wednesday, 11 September 2013 | By Julien Le Dem ([@J_](https://twitter.com/intent/user?screen_name=J_)) [16:04 UTC]*
 
 > Columnar storage is a popular technique to optimize analytical workloads in parallel RDBMs. The performance and compression benefits for storing and processing large amounts of data are well documented in academic literature as well as several [commercial analytical databases](http://vldb.org/pvldb/vol5/p1790_andrewlamb_vldb2012.pdf%E2%80%8E).
@@ -54,7 +55,7 @@ A Map is equivalent to a repeating field containing groups of key-value pairs wh
 
 ![](table3_0.png)
 
-##Columnar format
+## Columnar format
 A columnar format provides more efficient encoding and decoding by storing together values of the same primitive type. To store nested data structures in columnar format, we need to map the schema to a list of columns in a way that we can write records to flat columns and read them back to their original nested data structure. In Parquet, we create one column per primitive type field in the schema. If we represent the schema as a tree, the primitive types are the leaves of this tree.
 
 AddressBook example as a tree:
@@ -67,7 +68,7 @@ To represent the data in columnar format we create one column per primitive type
 
 The structure of the record is captured for each value by two integers called repetition level and definition level. Using definition and repetition levels, we can fully reconstruct the nested structures. This will be explained in detail below.
 
-##Definition levels
+## Definition levels
 To support nested records we need to store the level for which the field is null. This is what the definition level is for: from 0 at the root of the schema up to the maximum level for this column. When a field is defined then all its parents are defined too, but when it is null we need to record the level at which it started being null to be able to reconstruct the record.
 
 In a flat schema, an optional field is encoded on a single bit using 0 for null and 1 for defined. In a nested schema, we use an additional value for each level of nesting (as shown in the example), finally if a field is required it does not need a definition level.
@@ -112,7 +113,7 @@ The maximum definition level is now 2 as **b** does not need one. The value of t
 
 Making definition levels small is important as the goal is to store the levels in as few bits as possible.
 
-##Repetition levels
+## Repetition levels
 To support repeated fields we need to store when new lists are starting in a column of values. This is what repetition level is for: it is the level at which we have to create a new list for the current value. In other words, the repetition level can be seen as a marker of when to start a new list and at which level. For example consider the following representation of a list of lists of strings:
 
 ![](table7a.png)
@@ -132,7 +133,7 @@ On the following diagram we can visually see that it is the level of nesting at 
 
 A repetition level of 0 marks the beginning of a new record. In a flat schema there is no repetition and the repetition level is always 0. [Only levels that are repeated need a Repetition level](https://github.com/Parquet/parquet-mr/blob/8f93adfd0020939b9a58f092b88a5f62fd14b834/parquet-column/src/main/java/parquet/schema/GroupType.java#L199): optional or required fields are never repeated and can be skipped while attributing repetition levels.
 
-##Striping and assembly
+## Striping and assembly
 Now using the two notions together, let’s consider the AddressBook example again. This table shows the maximum repetition and definition levels for each column with explanations on why they are smaller than the depth of the column:
 
 ![](table9_0.png)
@@ -206,14 +207,14 @@ To reconstruct the records from the column, we iterate through the column:
   - R = 0 means a new record. we create the nested records from the root until the definition level
   - D = 0 => contacts is actually null, so we only have an empty AddressBook
 
-##Storing definition levels and repetition levels efficiently
+## Storing definition levels and repetition levels efficiently
 In regards to storage, this effectively boils down to creating three sub columns for each primitive type. However, the overhead for storing these sub columns is low thanks to the columnar representation. That’s because levels are bound by the depth of the schema and can be stored efficiently using only a few bits per value (A single bit stores levels up to 1, 2 bits store levels up to 3, 3 bits can store 7 levels of nesting). In the address book example above, the column **owner** has a depth of one and the column **contacts.name** has a depth of two. The levels will always have zero as a lower bound and the depth of the column as an upper bound. Even better, fields that are not repeated do not need a repetition level and required fields do not need a definition level, bringing down the upper bound.
 
 In the special case of a flat schema with all fields required (equivalent of NOT NULL in SQL), the repetition levels and definition levels are omitted completely (they would always be zero) and we only store the values of the columns. This is effectively the same representation we would choose if we had to support only flat tables.
 
 These characteristics make for a very compact representation of nesting that can be efficiently encoded using a combination of [Run Length Encoding and bit packing](https://github.com/Parquet/parquet-mr/tree/master/parquet-column/src/main/java/parquet/column/values/rle). A sparse column with a lot of null values will compress to almost nothing, similarly an optional column which is actually always set will cost very little overhead to store millions of 1s. In practice, space occupied by levels is negligible. This representation is a generalization of how we would represent the simple case of a flat schema: writing all values of a column sequentially and using a bitfield for storing nulls when a field is optional.
 
-##Get Involved
+## Get Involved
 Parquet is still a young project; to learn more about the project see our [README](https://github.com/Parquet/parquet-mr/blob/master/README.md) or look for the “[pick me up!](https://github.com/Parquet/parquet-mr/issues?labels=pick+me+up%21&state=open)” label on GitHub. We do our best to review pull requests in a timely manner and give thorough and constructive reviews.
 
 You can also join our [mailing list](https://web.archive.org/web/20131017205338/https://groups.google.com/d/forum/parquet-dev) and tweet at [@ApacheParquet](https://twitter.com/intent/user?screen_name=ApacheParquet) to join the discussion.
