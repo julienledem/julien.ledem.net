@@ -8,6 +8,8 @@ I started the [Parquet](https://parquet.apache.org/) project in collaboration wi
 Before that I received my initiation contributing to OpenSource in the [Apache Pig](https://pig.apache.org/) project where I evolved from contributor to committer to PMC member and eventually chaired the project in 2013.
 More recently I started the [OpenLineage](https://openlineage.io) project while being the CTO and co-founder of Datakin which was later acquired by Astronomer. OpenLineage came out of [Marquez](https://marquezproject.ai/), the project we co-created at Wework on the data platform team.
 
+I blog at [Sympathetic.Ink](https://sympathetic.ink)
+
 # Projects
 - Apache Parquet: co-creator, PMC menber, PMC chair 2015-2021
 - Apache Arrow: co-creator and PMC member
