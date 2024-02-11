@@ -1,6 +1,6 @@
 ![Julien Le Dem](JulienLeDem.jpg "Julien Le Dem")
 
-[<img src="https://linkedin.com/favicon.ico" height="16"/>](https://www.linkedin.com/in/julienledem/) &nbsp; [<img src="https://github.githubassets.com/favicons/favicon.svg" height="16"/>](https://github.com/julienledem) &nbsp; [<img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" height="16"/> ](https://twitter.com/J_)
+[<img src="https://linkedin.com/favicon.ico" height="16"/>](https://www.linkedin.com/in/julienledem/) &nbsp; [<img src="https://github.githubassets.com/favicons/favicon.svg" height="16"/>](https://github.com/julienledem) &nbsp; [<img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" height="16"/> ](https://twitter.com/J_) &nbsp; [<img src="https://en.wikipedia.org/wiki/Bluesky_%28social_network%29#/media/File:Bluesky_Logo.svg" height="16"/>](https://bsky.app/profile/julien.ledem.net)
 
 # Bio 
 I am a software architect, open source leader and entrepreneur who loves collaborating with others in Open Source projects.
