@@ -1,5 +1,9 @@
 # Presentations
 
+- Chill Data Summit Bay area August 2024: [Iceberg and the Deconstructed Database](https://docs.google.com/presentation/d/1XoNJkW1hqcafLpG1utZhCQsQz5jTSSASIEq9pwKZLNo/edit#slide=id.g10f3bc0dd77_0_1367)
+- Data Council March 2024: [Ten years of building open source standards: From Parquet to Arrow to OpenLineage](https://docs.google.com/presentation/d/16psRyw3KRiaBeR3hnrV0LAyT2ZwdqF5W0N2hialWGwQ/edit#slide=id.g10f3bc0dd77_0_1367)
+- Data & AI summit 2023: [Cross-Platform Data Lineage with OpenLineage](https://docs.google.com/presentation/d/10Fv1lTqHjXqF6J4LztHTu48GUiyHg1-A98QikYnuGdA/edit#slide=id.g11e446d5059_0_1049)
+- Airflow Summit 2023: [Nurturing an Open Source community is like tending a garden](https://docs.google.com/presentation/d/1rUalRrI2Xl2LfJ1tgXaso0biCvpcVGX7-DQ6dpIy0M8/edit#slide=id.g25f9577ea22_2_97)
 - Data and AI Summit May 2021: [Data lineage and observability with OpenLineage](slides/dataandaisummit-datapipelinesobservabilitywithopenlineage1-210622180843.pdf)
 - Data Driven January 2021: [Data pipelines observability with OpenLineage and Marquez](slides/datadrivenjan2021-datapipelinesobservabilityopenlineagemarquez-210205042221.pdf)
 - Subsurface 2020: [Data Lineage and observability with Marquez](slides/datalineageandobservabilitywithmarquezsubsurface2020-200807003708.pdf)
