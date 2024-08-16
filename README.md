@@ -50,7 +50,9 @@ Over the years I gave a number of talks. You'll find them in chronological order
 You'll also find a [playlist of talks recordings on Youtube](https://www.youtube.com/playlist?list=PL-i24QdqiobbMEGrtf1hLmu6ADvtnz3mR).
 
 ## Nurturing Open Source communities
- - SBTB 2023: Julien Le Dem, Ten years of building open source standards.
+ - Data Council 2024: Ten+ years of building open source standards.
+ {% include youtube.html id="qpJ5izI7vKQ" %}
+ - SBTB 2023: Ten years of building open source standards.
  {% include youtube.html id="Xz6HiLa18BA" %}
  - Data Council 2023: Ten years of building open source standards: From Parquet to Arrow to OpenLineage
  {% include youtube.html id="x8BQM-q0mAo" %}
